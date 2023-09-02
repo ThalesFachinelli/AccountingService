@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  accountingservice:
+    ports:
+        - "59574:443"
+        - "59575:80"
+    build:
+      context: .
+      dockerfile: AccountingService/Dockerfile
+    environment:
+        - DBHOST=mysql
+        - ASPNETCORE_ENVIRONMENT=Development
+
+  mysql:
+      image: mysql
+      ports:
+          - "3306:3306"
+      volumes:
+          - db-volume:/var/lib/mysql
+          - ./mysql-initdb/init.sql:/docker-entrypoint-initdb.d
+      environment:
+          MYSQL_ROOT_PASSWORD: numsay
+          MYSQL_USER: user
+          MYSQL_PASSWORD: numsay
+          MYSQL_DATABASE: accountingdb
+volumes:
+  db-volume:    

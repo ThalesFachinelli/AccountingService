@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountingService", "AccountingService\AccountingService.csproj", "{6D11DA69-334D-4838-B437-FFE0CAB498D4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F25A94B8-5D6A-47C5-96B4-B4F54EB2DB0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D11DA69-334D-4838-B437-FFE0CAB498D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D11DA69-334D-4838-B437-FFE0CAB498D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D11DA69-334D-4838-B437-FFE0CAB498D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D11DA69-334D-4838-B437-FFE0CAB498D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25A94B8-5D6A-47C5-96B4-B4F54EB2DB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25A94B8-5D6A-47C5-96B4-B4F54EB2DB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25A94B8-5D6A-47C5-96B4-B4F54EB2DB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25A94B8-5D6A-47C5-96B4-B4F54EB2DB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DC2ACE9-D9F4-4E57-8F1D-1FC4B8F4590D}
+	EndGlobalSection
+EndGlobal
